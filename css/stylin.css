@@ -1,0 +1,423 @@
+body {
+    color: #fff;
+    font-family: 'Oswald', sans-serif !important;
+}
+
+.wrapper {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar-blue {
+    background-color: #052049;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 0px;
+    margin: 0px;
+    padding: 0px;
+    /* box-shadow: 0px 1px 3px 1px #333; */
+    border-bottom: 1px #fff solid;
+}
+
+.navbar-blue.icon-bar {
+    color: #FFF;
+}
+
+.navbar-blue .navbar-brand {
+  color: #DDD;
+}#
+
+.navbar-blue .navbar-brand:hover,
+.navbar-blue .navbar-brand:focus {
+  color: #fff;
+  background-color: transparent;
+     transition: 0.3s;
+}
+
+.navbar-blue .navbar-text {
+  color: #FF0000;
+}
+
+.navbar-blue .navbar-nav > li > a {
+  color: #DDD;
+}
+
+.navbar-blue .navbar-nav > li > a:hover,
+.navbar-blue .navbar-nav > li > a:focus {
+  color: #fff;
+  background-color: transparent;
+     transition: 0.3s;
+}
+
+.navbar-blue .navbar-nav > .active > a,
+.navbar-blue .navbar-nav > .active > a:hover,
+.navbar-blue .navbar-nav > .active > a:focus {
+  color: #fff;
+  background-color: ;
+    transition: 0.3s;
+}
+
+.navbar-blue .navbar-nav > .disabled > a,
+.navbar-blue .navbar-nav > .disabled > a:hover,
+.navbar-blue .navbar-nav > .disabled > a:focus {
+  color: #DDD;
+  background-color: #00FFFF;
+}
+
+.navbar-blue .navbar-toggle {
+  border-color: #FFF;
+}
+
+.navbar-blue .navbar-toggle:hover,
+.navbar-blue .navbar-toggle:focus {
+  background-color: #F26D04;
+}
+
+.navbar-blue .navbar-toggle .icon-bar {
+  background-color: #fff;
+    transition: 0.3s;     
+}
+
+.navbar-blue .navbar-collapse,
+.navbar-blue .navbar-form {
+  border-color: #FFF;
+}
+
+.navbar-blue .navbar-nav > .open > a,
+.navbar-blue .navbar-nav > .open > a:hover,
+.navbar-blue .navbar-nav > .open > a:focus {
+  color: #fff;
+  background-color: transparent;
+}
+
+
+@media (max-width: 767px) {
+  .navbar-blue .navbar-nav .open .dropdown-menu > .dropdown-header {
+    border-color: #FFF;
+  }
+  .navbar-blue .navbar-nav .open .dropdown-menu .divider {
+    background-color: #FFF;
+  }
+  .navbar-blue .navbar-nav .open .dropdown-menu > li > a {
+    color: #fff;
+  }
+  .navbar-blue .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-blue .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #fff;
+    background-color: transparent;
+  }
+  .navbar-blue .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-blue .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-blue .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #fff;
+    background-color: #F26D04;;
+  }
+  .navbar-blue .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-blue .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-blue .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #FFF;
+    background-color: transparent;
+  }
+}
+
+
+.navbar-blue .navbar-link {
+  color: #9d9d9d;
+}
+
+.navbar-blue .navbar-link:hover {
+  color: #fff;
+    transition: 0.3s;
+}
+
+.navbar-blue .btn-link {
+  color: #9d9d9d;
+}
+
+.navbar-blue .btn-link:hover,
+.navbar-blue .btn-link:focus {
+  color: #fff;
+}
+
+.navbar-blue .btn-link[disabled]:hover,
+fieldset[disabled] .navbar-blue .btn-link:hover,
+.navbar-blue .btn-link[disabled]:focus,
+fieldset[disabled]     .navbar-blue .btn-link:focus {
+  color: #FFF;
+}
+
+ul.dropdown-menu {
+    background-color: #052049;
+    color: #fff;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul.dropdown-menu li a {
+    color: #fff;
+}
+
+ul.dropdown-menu li a:hover {
+    background: #fff;
+    transition: 0.3s;
+}
+
+ul.dropdown-menu li a:last-child {
+    border-radius: 0px;
+}
+
+a, a:active, a:visited {
+    color: #F36d04;
+}
+
+#intro {
+    padding-top: 35px;
+    padding-bottom: 25px;
+    background-color: #058488;
+    /* border-bottom: 1px white solid; */
+}
+
+#intro::after {
+    content:'';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-top: solid 50px #058488;
+    border-left: solid 50px transparent;
+    border-right: solid 50px transparent;
+    z-index: 1;
+}
+
+
+#portfolio {
+    padding-top: 45px;
+    padding-bottom: 25px;
+    background-color: #F36d04;
+    /* border-bottom: 1px white solid; */
+}
+
+#portfolio::after {
+    content:'';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-top: solid 50px #f36d04;
+    border-left: solid 50px transparent;
+    border-right: solid 50px transparent;
+    z-index: 1;
+}
+
+#about {
+    padding-top: 45px;
+    padding-bottom: 25px;
+    background-color: #052049;
+    /* border-bottom: 1px white solid; */
+}
+
+#about::after {
+    content:'';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-top: solid 50px #052049;
+    border-left: solid 50px transparent;
+    border-right: solid 50px transparent;
+    z-index: 1;
+}
+
+#contact {
+    padding-top: 45px;
+    padding-bottom: 25px;
+    background-color: #F36d04;
+    /* border-bottom: 1px white solid; */
+}
+
+#portfolio::after {
+    content:'';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-top: solid 50px #f36d04;
+    border-left: solid 50px transparent;
+    border-right: solid 50px transparent;
+    z-index: 1;
+}
+
+#contact::after {
+    content:'';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-top: solid 50px #F36d04;
+    border-left: solid 50px transparent;
+    border-right: solid 50px transparent;
+    z-index: 1;
+}
+
+#footer{
+    padding-top: 45px;
+    padding-bottom: 25px;
+    background-color: #052049;
+    color: #fff;    
+}
+
+
+
+#intro > img {
+        border-radius: 50%;
+    border: 2px #FFF solid;
+}
+
+.ts-title {
+    text-shadow: 2px 2px 2px black;
+}
+
+.borders {
+    border-left: 1px white dashed;
+    border-right: 1px white dashed;
+}
+
+}
+
+.portfolio-pic {
+    padding: 30px;
+}
+
+
+.portfolio-image {
+    opacity: 1;
+    width: 3    50px;
+    height: 250px;
+}
+.portfolio-image:hover {
+    opacity: .5;
+    transition: 0.3s;
+}
+
+
+
+/* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+        .text-right {
+            text-align: center;
+        }
+        .text-left {
+            text-align: center !important;
+        }
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+        .text-right {
+            text-align: center;
+        }
+        .text-left {
+            text-align: center !important;
+        }
+    }
+
+hr.faded-hr-lt-blue { 
+  border: 0; 
+  height: 1px;
+  width: 500px;
+  background-image: -webkit-linear-gradient(left, #058488, #cccccc, #058488);
+  background-image: -moz-linear-gradient(left, #058488, #ffffff, #058488);
+  background-image: -ms-linear-gradient(left, #058488, #ffffff, #058488);
+  background-image: -o-linear-gradient(left, #058488, #ffffff, #058488);
+  background-image: linear-gradient(left, #058488, #ffffff, #058488);
+}
+
+input {
+    width: 375px;
+    height: 25px;
+}
+
+.btn-temp {
+    color: #fff;
+    background-image: linear-gradient(to bottom, #052049 0, #058488 100%);
+    background-repeat: repeat-x;
+    border: 2px solid #007cbe;
+    padding: 1px 12px !important;
+}
+
+.btn-temp:hover {
+    color: #fff;
+}
+
+#contact-form {
+    max-width: 750px;
+    margin: auto;
+    padding: 10px;
+}
+
+#social-links > a {
+    color: #fff;
+}
+
+.text-black {
+    color: #000;
+}
+
+.fab {
+    padding: 2px 5px;
+    margin: 2px 5px;
+}
+
+.facebook-blue:hover {
+    color: #3b5998;
+    transition: 0.3s;
+
+}
+
+.twitter-blue:hover {
+    color: #55acee;
+    transition: 0.3s;
+
+}
+
+.linkedin-blue:hover {
+    color: #007bb5;
+    transition: 0.3s;
+
+}
+
+.github-black:hover {
+    color: #000;
+    transition: 0.3s;
+}
+
+.white-bg {
+    background-color: #fff;
+}
+
+#physicallinks a, #physicallinks a:active, #physicallinks a:visited {
+    color: #F36d04;
+}
+
+.text-red {
+    color: #FF0000;
+}
+
+.text-black {
+    color: #000;
+}
