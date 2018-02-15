@@ -349,8 +349,8 @@ hr.faded-hr-lt-blue {
 }
 
 input {
-    max-width: 300px;
-    min-width: 100%;
+    max-width: 100%;
+    min-width: 250px;
     height: 25px;
 }
 .btn-temp {
@@ -422,4 +422,9 @@ input {
 
 .text-black {
     color: #000;
+}
+
+.modal-image {
+    max-width: 100%;
+    min-width: 250px;
 }
